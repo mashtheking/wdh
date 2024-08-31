@@ -35,7 +35,7 @@ const UserProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
       const promise = await account.create(ID.unique(), email, password, name)
       await account.createEmailSession(email, password);
 
-      await useCreateProfile(promise?.$id, name, String('default.php', '')
+      await useCreateProfile(promise?.$id, name, String('default.png', '')
       await checkUser() 
 
     } catch (error) {
