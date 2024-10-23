@@ -18,7 +18,7 @@ export default function AuthOverlay() {
                 <div className="relative bg-white w-full max-w-[470px] h-[70%] p-4 rounded-lg">
 
                     <div className="w-full flex justify-end">
-                        <button onClick={() => setIsLoginOpen(false)} className="p-1.5 rounded-full bg-gray-100">
+                        <button onClick={() => setIsLoginOpen(false)} className="p-1.5 rounded-full bg-[#000000]">
                             <AiOutlineClose size="26"/>
                         </button>
                     </div>
