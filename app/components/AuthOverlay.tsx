@@ -13,7 +13,7 @@ export default function AuthOverlay() {
         <>
             <div 
                 id="AuthOverlay" 
-                className="fixed flex items-center justify-center z-50 top-0 left-0 w-full h-full bg-[#000000] bg-opacity-50"
+                className="fixed flex items-center justify-center z-50 top-0 left-0 w-full h-full bg-[#000000] bg-opacity-10"
             >
                 <div className="relative bg-white w-full max-w-[470px] h-[70%] p-4 rounded-lg">
 
