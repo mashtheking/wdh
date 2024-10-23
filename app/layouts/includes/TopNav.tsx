@@ -114,7 +114,7 @@ export default function TopNav() {
                                     </button>
                                     
                                     {showMenu ? (
-                                        <div className="absolute bg-white rounded-lg py-1.5 w-[200px] shadow-xl border top-[40px] right-0">
+                                        <div className="absolute rounded-lg py-1.5 w-[200px] shadow-xl border top-[40px] right-0">
                                             <button 
                                                 onClick={() => { 
                                                     router.push(`/profile/${userContext?.user?.id}`)
